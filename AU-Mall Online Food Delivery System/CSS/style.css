@@ -1,0 +1,218 @@
+body {
+  background-color:antiquewhite;
+}
+header {
+  background-color: rgb(124, 30, 30);
+  color: white;
+}
+
+.logo {
+  max-width: 100px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.center-text {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.right-text {
+  text-align: right;
+  vertical-align: baseline;
+}
+.right-text a:hover {
+  color: #ff0000; /* Change the color to your desired hover color */
+}
+
+
+.header-table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-vendor-cell {
+  width: auto;
+  display: flex;
+  gap: 10px;
+}
+
+.admin-vendor-cell a {
+  text-decoration: none; 
+  color: antiquewhite; 
+  margin-left: 20px; 
+}
+
+nav {
+  background-color:  rgb(124, 30, 30);
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  padding: 10px 0;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  background-color: #f1f1f1; /* Change the background color to your desired hover color */
+}
+
+
+footer {
+  background-color: black; /* Set background color */
+  color: white; /* Set font color */
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer table {
+  width: 100%;
+}
+
+footer td {
+  padding: 5px 0;
+}
+
+footer a {
+  color: white; /* Set link color */
+  text-decoration: none;
+}
+
+/* Additional styles for Contact Information */
+.contact-info {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Style for the email link */
+.email-link {
+  color: white; /* Set link color */
+  text-decoration: none;
+}
+
+.shop-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.shop-card {
+  flex: 0 0 calc(33.33% - 20px); /* Distribute width equally with margin */
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+.shop-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.shop-link {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(100, 30, 30);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.right-text a:hover {
+  color: #C49799; 
+}
+nav ul li a:hover {
+  color: #C49799; 
+}
+.dropdown-content a:hover {
+  color: whitesmoke; 
+  background-color: #8B1E3F ;
+}
+
+.shop-section {
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto; /* Center the container */
+}
+
+.shop-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.shop-card {
+  width: 25%; /* Set the width for each card to fit three per row */
+  display: inline-block;
+  margin: 10px; /* Add some margin for spacing */
+  text-align: center; /* Center the content */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.shop-card:hover {
+  transform: scale(1.05);
+}
+
+.shop-card img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.2s; /* Add a smooth transition effect for image hover */
+}
+
+
+.shop-card:hover img {
+  transform: scale(1.1); /* Increase image size on hover */
+}
+
+.restaurant-card {
+  width: 200px; /* Set your desired width */
+  height: 300px; /* Set your desired height */
+}
+.step {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  width: 30%;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
